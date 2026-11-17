@@ -28,6 +28,7 @@ To collect employee details, validate inputs, and calculate gross and net salary
 
 ## Program
 # Employee Payroll calculation
+'''python
 name = input("Enter Employee name : ")
 emp_id = input("Enter Employee ID : ")
 basic = float(input("Enter Basic Pay : "))
@@ -45,9 +46,10 @@ print(f"DA:{da}")
 print(f"Gross Salary: {gross}")
 print(f"Tax Deducted: {tax}")
 print(f"Net Salary : {net}")
-
+'''
 
 ## Output
+'''text
 Enter Employee name : Vishal
 Enter Employee ID : BMD49485
 Enter Basic Pay : 50000
@@ -60,7 +62,7 @@ DA:10000.0
 Gross Salary: 72500.0
 Tax Deducted: 7250.0
 Net Salary : 65250.0
-
+'''
 
 ## ✅ Result
 
