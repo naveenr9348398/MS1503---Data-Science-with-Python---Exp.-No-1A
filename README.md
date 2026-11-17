@@ -27,9 +27,39 @@ To collect employee details, validate inputs, and calculate gross and net salary
 9. **Stop** the program.
 
 ## Program
+# Employee Payroll calculation
+name = input("Enter Employee name : ")
+emp_id = input("Enter Employee ID : ")
+basic = float(input("Enter Basic Pay : "))
+hra = 0.25 * basic
+da = 0.20 * basic
+gross = basic+hra+da
+tax = 0.10 * gross
+net = gross - tax
+print("---Employee Salary Report---")
+print(f"Employee Name: {name}")
+print(f"Employee ID: {emp_id}")
+print(f"Basic pay: {basic}")
+print(f"HRA:{hra}")
+print(f"DA:{da}")
+print(f"Gross Salary: {gross}")
+print(f"Tax Deducted: {tax}")
+print(f"Net Salary : {net}")
 
 
 ## Output
+Enter Employee name : Vishal
+Enter Employee ID : BMD49485
+Enter Basic Pay : 50000
+---Employee Salary Report---
+Employee Name: Vishal
+Employee ID: BMD49485
+Basic pay: 50000.0
+HRA:12500.0
+DA:10000.0
+Gross Salary: 72500.0
+Tax Deducted: 7250.0
+Net Salary : 65250.0
 
 
 ## ✅ Result
